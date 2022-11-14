@@ -17,7 +17,19 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
             name = "Figura Geometrica";
         }
 
-        public virtual double Area() { return 0; }
-        public virtual double Perimeter() { return 0; }
+        public virtual double Area
+        {
+            get
+            {
+                return 0;
+            }
+        }
+        public virtual double Perimeter
+        {
+            get
+            {
+                return 0;
+            }
+        }
     }
 }

@@ -19,13 +19,22 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
             this.height = height;
         }
 
-        public override double Area() 
+
+        public override double Area
         {
-            return b * height;
+            get
+            {
+                return b * height;
+            }
         }
-        public override double Perimeter() 
+
+
+        public override double Perimeter 
         {
-            return b * 2 + height * 2;
+            get
+            {
+                return b * 2 + height * 2;
+            }
         }
     }
 }

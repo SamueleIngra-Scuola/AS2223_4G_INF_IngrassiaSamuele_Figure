@@ -16,13 +16,21 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
             this.radius = radius;
         }
 
-        public override double Area() 
+        public override double Area
         {
-            return radius * radius * Math.PI;
+            get
+            {
+                return radius * radius * Math.PI;
+            }
         }
-        public override double Perimeter() 
+
+
+        public override double Perimeter
         {
-            return radius * 2 * Math.PI;
+            get
+            {
+                return radius * 2 * Math.PI;
+            }
         }
     }
 }
