@@ -18,6 +18,6 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
         }
 
         public virtual double Area() { return 0; }
-        public virtual string Perimeter() { return 0; }
+        public virtual double Perimeter() { return 0; }
     }
 }
