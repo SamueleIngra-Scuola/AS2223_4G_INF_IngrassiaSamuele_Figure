@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace AS2223_4G_INF_IngrassiaSamuele_Figure
 {
-    internal class Shape
+    public class Shape
     {
+        int edges;
+        protected string name;
+
+        public Shape()
+        {
+            edges = 0;
+            name = "Geometrical Shape";
+        }
+
+        public virtual double Area() { return 0; }
+        public virtual string Perimeter() { return 0; }
     }
 }
