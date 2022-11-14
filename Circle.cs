@@ -6,25 +6,23 @@ using System.Threading.Tasks;
 
 namespace AS2223_4G_INF_IngrassiaSamuele_Figure
 {
-    public class Triangle : Shape
+    public class Circle : Shape
     {
-        double b;
-        double height;
-        public Triangle (double b, double height)
+        double radius;
+        public Circle (double radius)
         {
-            name = "Triangle";
+            name = "Cerchio";
 
-            this.b = b;
-            this.height = height;
+            this.radius = radius;
         }
 
         public override double Area() 
         {
-            return b * height / 2;
+            return radius * radius * 3.14;
         }
         public override double Perimeter() 
         {
-            return b * 3;
+            return radius * 2 * 3.14;
         }
     }
 }

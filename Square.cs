@@ -11,7 +11,7 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
         double edge;
         public Square (double edge)
         {
-            name = "Square";
+            name = "Quadrato";
 
             this.edge = edge;
         }

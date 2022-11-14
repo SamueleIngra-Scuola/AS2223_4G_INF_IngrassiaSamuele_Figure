@@ -14,7 +14,7 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
         public Shape()
         {
             edges = 0;
-            name = "Geometrical Shape";
+            name = "Figura Geometrica";
         }
 
         public virtual double Area() { return 0; }
