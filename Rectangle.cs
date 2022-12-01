@@ -13,7 +13,7 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
 
         public Rectangle (double b, double height)
         {
-            name = "Rettngolo";
+            name = "Rettangolo";
 
             this.b = b;
             this.height = height;
