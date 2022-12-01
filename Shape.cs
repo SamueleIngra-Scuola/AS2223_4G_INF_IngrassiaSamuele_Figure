@@ -8,7 +8,6 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
 {
     public class Shape
     {
-        int edges;
         protected string name;
 
         public Shape()
