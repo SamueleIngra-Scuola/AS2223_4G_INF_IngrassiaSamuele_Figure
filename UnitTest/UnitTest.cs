@@ -14,8 +14,8 @@ namespace UnitTest
         {
             Circle shape = new Circle(5);
 
-            Assert.That(shape.Area, Is.EqualTo(78.539));
-            Assert.That(shape.Perimeter, Is.EqualTo(31.41));
+            Assert.That(Math.Round(shape.Area, 2), Is.EqualTo(78.54));
+            Assert.That(Math.Round(shape.Perimeter, 2), Is.EqualTo(31.42));
         }
 
         [Test]
