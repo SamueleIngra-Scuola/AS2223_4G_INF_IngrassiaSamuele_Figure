@@ -12,7 +12,6 @@ namespace AS2223_4G_INF_IngrassiaSamuele_Figure
 
         public Shape()
         {
-            edges = 0;
             name = "Figura Geometrica";
         }
 
