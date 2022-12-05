@@ -1,4 +1,5 @@
-﻿namespace AS2223_4G_INF_IngrassiaSamuele_Figure
+﻿using ShapeLIB;
+namespace AS2223_4G_INF_IngrassiaSamuele_Figure
 {
     internal class Program
     {
