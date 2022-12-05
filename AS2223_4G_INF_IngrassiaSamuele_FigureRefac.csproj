@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,9 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ShapeLIB\**" />
     <Compile Remove="UnitTest\**" />
+    <EmbeddedResource Remove="ShapeLIB\**" />
     <EmbeddedResource Remove="UnitTest\**" />
+    <None Remove="ShapeLIB\**" />
     <None Remove="UnitTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="ShapeLIB\ShapeLIB.csproj" />
   </ItemGroup>
 
 </Project>
