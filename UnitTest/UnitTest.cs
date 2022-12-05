@@ -32,10 +32,8 @@ namespace UnitTest
         {
             Rectangle shape = new Rectangle(5, 10);
 
-
             Assert.That(shape.Area, Is.EqualTo(50));
             Assert.That(shape.Perimeter, Is.EqualTo(30));
-
         }
     }
 }
